@@ -3,7 +3,7 @@ sys:
   locale: ja_JP.UTF-8
   timezone: Asia/Tokyo
   memory_size: 16
-  hostname: raspi
+  hostname: raspberrypi
   wifi_country: JP
 
 #  services:
