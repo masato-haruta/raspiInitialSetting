@@ -29,14 +29,14 @@ cd raspiInitialSetting
 
 初期設定のままなので必要に応じてIPアドレスやhostnameに書き換える
 
-```conf:inventory.yml
+```conf:inventory
 [raspberrypi]
 raspberrypi.local # set your environment(exsample: 192.168.3.2 etc..)
 ```
 
 ssh関連も初期設定のままなので必要に応じて書き換える
 
-```conf:inventory.yml
+```conf:inventory
 [raspberrypi:vars]
 ansible_ssh_port=22 # set your environment
 ansible_ssh_user=pi # set your environment
