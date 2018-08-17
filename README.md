@@ -11,7 +11,7 @@ Ansibleで以下の内容がRaspberry Piに反映されるサンプルです。
 - local:ja_JP.UTF-8
 - timezone: Asia/Tokyo
 - memory split: 16
-- hostname: raspi
+- hostname: raspberrypi
 - wifi country: JP
 
 ## Requirement
