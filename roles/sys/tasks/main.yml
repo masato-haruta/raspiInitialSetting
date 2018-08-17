@@ -1,0 +1,27 @@
+---
+- name: set locale to '{{ sys.locale }}'
+  locale_gen:
+    name: '{{ sys.locale }}'
+    state: present
+
+- name: set timezone to '{{ sys.timezone }}'
+  timezone:
+    name: '{{ sys.timezone }}'
+                  
+- name: set memory split to '{{sys.memory_size}}'
+  shell: raspi-config nonint do_memory_split '{{sys.memory_size}}'
+
+- name: set hostname to '{{sys.hostname}}'
+  shell: raspi-config nonint do_hostname '{{sys.hostname}}'
+
+- name: set wi-fi country to '{{sys.wifi_country}}'
+  shell: raspi-config nonint do_wifi_country '{{sys.wifi_country}}'
+
+#- name: set 
+#  shell:
+#- name: start & stop services
+#  service:
+#    name: '{{ item.name }}'
+#    enabled: '{{ item.enabled | default("yes") }}'
+#    state: '{{ item.state | default("started") }}'
+#  with_items: '{{ sys.services }}'

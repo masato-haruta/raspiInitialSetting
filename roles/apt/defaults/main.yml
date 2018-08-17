@@ -1,0 +1,10 @@
+---
+apt:
+  all_update_flag: True
+  all_upgrade_flag: True
+  packages:
+    - name: git
+    - name: vim
+    - name: wget
+    - name: wicd-curses
+    - name: tightvncserver

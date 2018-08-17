@@ -1,0 +1,10 @@
+---
+sys:
+  locale: ja_JP.UTF-8
+  timezone: Asia/Tokyo
+  memory_size: 16
+  hostname: raspi
+  wifi_country: JP
+
+#  services:
+#    - {name: bluetooth, enabled: no, state: stopped}
