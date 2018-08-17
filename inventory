@@ -1,5 +1,5 @@
 [raspberrypi]
-192.168.x.y
+raspberrypi.local
 
 [raspberrypi:vars]
 ansible_ssh_port=22

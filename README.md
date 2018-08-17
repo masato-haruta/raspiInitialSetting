@@ -27,16 +27,16 @@ git clone https://github.com/masato-haruta/raspiInitialSetting.git
 cd raspiInitialSetting
 ```
 
-inventoryファイルに対象のRaspberry PiのIPアドレスを記載
+初期設定のままなので必要に応じてIPアドレスやhostnameに書き換える
 
-```
+```conf:inventory
 [raspberrypi]
-192.168.x.y # set your environment
+raspberrypi.local # set your environment(exsample: 192.168.3.2 etc..)
 ```
 
-ssh関連は初期設定のままなので必要に応じて書き換える
+ssh関連も初期設定のままなので必要に応じて書き換える
 
-```
+```conf:inventory
 [raspberrypi:vars]
 ansible_ssh_port=22 # set your environment
 ansible_ssh_user=pi # set your environment
