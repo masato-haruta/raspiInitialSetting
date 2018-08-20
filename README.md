@@ -8,6 +8,10 @@ Ansibleで以下の内容がRaspberry Piに反映されるサンプルです。
   - wget
   - wicd-curses
   - tightvncserver
+  - screen
+  - tree
+  - hdparm
+  - speedtest-cli
 - local:ja_JP.UTF-8
 - timezone: Asia/Tokyo
 - memory split: 16
