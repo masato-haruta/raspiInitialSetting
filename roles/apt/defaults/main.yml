@@ -10,3 +10,6 @@ apt:
     - name: tightvncserver
     - name: screen
     - name: tree
+    - name: hdparm
+    - name: python-pip
+    - name: speedtest-cli
