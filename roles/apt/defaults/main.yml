@@ -8,3 +8,5 @@ apt:
     - name: wget
     - name: wicd-curses
     - name: tightvncserver
+    - name: screen
+    - name: tree
