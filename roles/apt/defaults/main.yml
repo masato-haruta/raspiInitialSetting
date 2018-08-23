@@ -13,3 +13,9 @@ apt:
     - name: hdparm
     - name: python-pip
     - name: speedtest-cli
+    - name: time
+    - name: openssl
+    - name: libssl-dev
+    - name: libreadline-dev
+    - name: libsqlite3-dev
+    - name: libbz2-dev
